@@ -208,7 +208,9 @@ a:focus {
 }
 
 .o-row--gradient{
-    linear-gradient(to top right, #5051DB, #3887F7)
+    background: linear-gradient(to top right, #5051DB, #3887F7);
+    color: white;
+
 }
 
 @media (min-width: 768px) {
@@ -455,6 +457,19 @@ a:focus {
     background-color: #3E3EA8;
 }
 
+.c-link-cta--inverse,
+.c-link-cta--inverse:visited,
+.c-link-cta--inverse:active{
+    color: #FFF;
+}
+
+.c-link-cta--inverse::after{
+    background-color: #FFF;
+}
+
+.c-link-cta--inverse:hover::after{
+    background-color: #FFF;
+}
 
 .c-logo {
     height: 32px;
